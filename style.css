@@ -1,0 +1,41 @@
+# Profion Pop
+
+Proper app starter for the Welsh-medium maths platform.
+
+## What is included
+
+- React app
+- Firebase-ready structure
+- Student dashboard
+- Teacher dashboard
+- Class codes
+- XP and streaks
+- Avatar placeholder
+- Assign work flow
+- Live Challenge / Kahoot Mode placeholder
+- First reusable question types:
+  - Multiple choice
+  - Tick all that apply
+  - Number/text input
+
+## Setup
+
+1. Install Node.js.
+2. Open this folder in VS Code.
+3. Run:
+
+```bash
+npm install
+npm run dev
+```
+
+## Firebase setup later
+
+Create a Firebase project, then copy your Firebase config into:
+
+`src/firebase/firebase.js`
+
+Then we connect:
+- Authentication
+- Firestore database
+- Hosting
